@@ -1,38 +1,28 @@
 def eggs_solution(breaks):
     if breaks(50):
-        for i in range(1,49):
+        for i in range(1,51):
             if breaks(i):
                 return i - 1
-            else:
-                return 49
     else: 
         if breaks(75):
-            for i in range(51,74):
+            for i in range(51,76):
                 if breaks (i):
                     return i-1
-                else:
-                    return 74
         else:
             if breaks(87):
-                for i in range(76,86):
+                for i in range(76,88):
                     if breaks (i):
                         return i-1
-                    else:
-                        return 86
             else:
                 if breaks(94):
-                    for i in range(88,93):
+                    for i in range(88,95):
                         if breaks (i):
                             return i-1
-                        else:
-                            return 93
                 else:
                     if breaks(97):
-                        for i in range(95,96):
+                        for i in range(95,98):
                             if breaks (i):
                                 return i-1
-                            else:
-                                return 96
                     else:
                         if breaks(99):
                             if breaks(98):
